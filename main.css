@@ -67,6 +67,13 @@ button{
 .about__image{
     width: 500px;
 }
+
+@keyframes rotation {
+    from{
+        transform: rotate(90deg);
+    }
+}
+
 .about__sun-img{
     height: 100px;
 }

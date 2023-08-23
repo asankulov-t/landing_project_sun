@@ -5,6 +5,10 @@ body{
 }
 
 header{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -76,6 +80,7 @@ button{
 
 .about__sun-img{
     height: 100px;
+    position: absolute;
 }
 
 .form__container{
@@ -167,5 +172,9 @@ footer{
 }
 .footer__links a{
     padding-bottom: 15px;
-
+}
+.up{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }

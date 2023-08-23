@@ -173,7 +173,7 @@ footer{
     bottom: 20px;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
     header{
         padding: 10px;
     }

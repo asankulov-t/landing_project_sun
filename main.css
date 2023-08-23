@@ -72,12 +72,6 @@ button{
     width: 500px;
 }
 
-@keyframes rotation {
-    from{
-        transform: rotate(90deg);
-    }
-}
-
 .about__sun-img{
     height: 100px;
     position: absolute;
@@ -177,4 +171,39 @@ footer{
     position: fixed;
     right: 20px;
     bottom: 20px;
+}
+
+@media (max-width: 540px) {
+    header{
+        padding: 10px;
+    }
+    .header__logo{
+        height: 20px;
+    }
+    .about h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .about__image{
+        width: 280px;
+    }
+    .about__sun-img{
+        width: 75px;
+        height: 75px;
+    }
+
+    .about{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: url("img/back.png") no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .about__info{
+        max-width: 550px;
+    }
+
 }
